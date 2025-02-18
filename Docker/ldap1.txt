@@ -1,3 +1,6 @@
+#Script installation du LDAP et du docker 
+
+
 #!/bin/bash
 
 # Mise à jour du système
