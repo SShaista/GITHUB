@@ -1,0 +1,137 @@
+/* Réinitialisation des marges et paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #c8e7e9, #babadc);/* Fond violet */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Conteneur du formulaire */
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transform: translateY(-30px); /* Effet de lévitation */
+}
+
+/* Titre (ex: "Connexion") */
+.container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Labels et champs de saisie */
+.container label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.container input[type="text"]:focus,
+.container input[type="password"]:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 8px rgba(108, 99, 255, 0.3);
+}
+
+/* Bouton de connexion */
+.container input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.container input[type="submit"]:hover {
+    background-color: #5743c3;
+}
+
+/* Lien "Créer un compte" */
+.container p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.container a {
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.container a:hover {
+    color: #5743c3;
+}
+Conteneur des boutons supplémentaires */
+.extra-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Conteneur des boutons supplémentaires */
+.extra-buttons {
+    margin-top: 20px;       /* Espace au-dessus des boutons */
+    display: flex;          /* Mise en page en flexbox */
+    gap: 10px;              /* Espace horizontal entre les boutons */
+  }
+  
+  /* Style commun pour les liens dans .extra-buttons */
+  .extra-buttons a {
+    flex: 1;                /* Chaque bouton prend la moitié de la largeur disponible */
+    text-align: center;
+    padding: 12px;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    text-decoration: none;  /* Retire le soulignement */
+  }
+  
+  /* Bouton "Accueil" */
+  .btn-home {
+    background-color: #555;
+  }
+  .btn-home:hover {
+    background-color: #333;
+  }
+  
+  /* Bouton "Intranet" */
+  .btn-intranet {
+    background-color: #b71c1c;
+  }
+  .btn-intranet:hover {
+    background-color: #8d1414;
+  }
+  
