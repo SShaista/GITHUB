@@ -13,37 +13,6 @@ L'application est organisée en plusieurs dossiers :
 
 Arborescence : 
 
-myapp/
-├── backend/              # Contient les scripts PHP pour l'authentification et la gestion des utilisateurs
-│   ├── login.php         # Page de connexion
-│   ├── logout.php        # Déconnexion de l'utilisateur
-│   ├── ldap_signup.php   # Inscription via LDAP
-│   ├── ldap_login.php    # Connexion via LDAP
-│   ├── signout.php       # Déconnexion LDAP
-│   ├── home.php          # Page d'accueil après connexion
-│   ├── dashboard.php     # Tableau de bord utilisateur
-│   ├── index.php         # Page principale
-│
-├── database/             # Contient les fichiers liés à la base de données MySQL
-│   ├── compte_db.sql     # Dump SQL pour créer la base de données
-│
-├── docker/               # Configuration Docker pour l'environnement de développement
-│   ├── docker-compose.yml  # Fichier Docker Compose pour gérer les services
-│   ├── ldap1.txt         # Configuration spécifique pour LDAP
-│
-├── frontend/             # Contient les fichiers du frontend (HTML, CSS, JavaScript)
-│   ├── login.html        # Page de connexion
-│   ├── ldap_signup.html  # Page d'inscription LDAP
-│   ├── ldap_login.html   # Page de connexion LDAP
-│   ├── home.html         # Page d'accueil utilisateur
-│   ├── dashboard.html    # Tableau de bord utilisateur
-│   ├── styles.css        # Feuille de styles principale
-│   ├── login.js          # Scripts JS pour validation et gestion du formulaire de connexion
-│   ├── ldap_signup.js    # Scripts JS pour l'inscription LDAP
-│   ├── ldap_login.js     # Scripts JS pour la connexion LDAP
-│   ├── signup.js         # Scripts JS pour l'inscription
-│
-└── README.md             # Documentation du projet
 
  
 ⚙️ Installation et Déploiement
