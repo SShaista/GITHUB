@@ -8,7 +8,7 @@ L'application est organisée en plusieurs dossiers :
 
 📁 frontend/ → Interface utilisateur (HTML, CSS, JavaScript)
 📁 backend/ → Scripts PHP pour l’authentification et la gestion des utilisateurs
-📁 database/ → Fichiers SQL pour la base de données
+📁 SQL/ → Fichiers SQL pour la base de données
 📁 docker/ → Configuration Docker (docker-compose.yml, scripts de lancement)
 
 Arborescence : 
