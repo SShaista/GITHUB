@@ -1,0 +1,102 @@
+/* Style général de la page */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;  /* Couleur de fond légère */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Prend toute la hauteur de l'écran */
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);  /* Ombre légère autour de la boîte */
+    text-align: center;
+    width: 350px;  /* Largeur ajustée */
+}
+
+h2 {
+    color: #333;  /* Couleur du texte du titre */
+    font-size: 24px;  /* Taille du titre */
+    margin-bottom: 20px;
+}
+
+/* Style des champs de formulaire */
+input {
+    width: 100%;  /* Prend toute la largeur du conteneur */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;  /* Bordure grise */
+    border-radius: 5px;
+    box-sizing: border-box;  /* Prend en compte la bordure dans la taille de l'élément */
+    font-size: 14px;  /* Taille de la police dans les champs */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #007BFF;  /* Couleur du bouton */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;  /* Transition douce au survol */
+}
+
+button:hover {
+    background: #0056b3;  /* Changement de couleur au survol */
+}
+
+/* Message d'erreur */
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* Message générique de succès ou d'erreur */
+.message {
+    color: red;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* Conteneur des boutons supplémentaires */
+.extra-buttons {
+    margin-top: 20px;       /* Espace au-dessus des boutons */
+    display: flex;          /* Mise en page en flexbox */
+    gap: 10px;              /* Espace horizontal entre les boutons */
+  }
+  
+  /* Style commun pour les liens dans .extra-buttons */
+  .extra-buttons a {
+    flex: 1;                /* Chaque bouton prend la moitié de la largeur disponible */
+    text-align: center;
+    padding: 12px;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    text-decoration: none;  /* Retire le soulignement */
+  }
+  
+  /* Bouton "Accueil" */
+  .btn-home {
+    background-color: #555;
+  }
+  .btn-home:hover {
+    background-color: #333;
+  }
+  
+  /* Bouton "Intranet" */
+  .btn-intranet {
+    background-color: #b71c1c;
+  }
+  .btn-intranet:hover {
+    background-color: #8d1414;
+  }
+  
